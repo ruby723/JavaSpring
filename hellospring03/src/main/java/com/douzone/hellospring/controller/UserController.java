@@ -15,7 +15,6 @@ import com.douzone.hellospring.vo.UserVo;
  * @author jeongin
  *
  */
-
 @Controller
 @RequestMapping("/user")
 public class UserController {
