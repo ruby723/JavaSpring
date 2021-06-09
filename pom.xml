@@ -46,5 +46,7 @@
 		<module>emaillist03</module>
 		<module>guestbook03</module>
 		<module>logex</module>
+		<module>apptest</module>
+		<module>fileupload</module>
 	</modules>
 </project>

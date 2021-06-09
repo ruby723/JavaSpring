@@ -11,14 +11,14 @@
 	</appender>
 
 	<appender name="fileAppender2" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>Users/jeongin/logex/logex2.log</file>
+		<file>/Users/jeongin/logex/logex2.log</file>
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 			<Pattern>
 				%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n
 			</Pattern>
 		</encoder>
 		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-			<FileNamePattern>/logex/logex2.%i.log.zip</FileNamePattern>
+			<FileNamePattern>Users/jeongin/Documents/logex/logex2.%i.log.zip</FileNamePattern>
 			<MinIndex>1</MinIndex>
 			<MaxIndex>10</MaxIndex>
 		</rollingPolicy>
@@ -29,14 +29,14 @@
 	</appender>
 	
 	<appender name="fileAppender3" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>Users/jeongin/logex/logex3.log</file>
+		<file>/Users/jeongin/Documents/logex/logex3.log</file>
 		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
 			<Pattern>
 				%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n
 			</Pattern>
 		</encoder>
 		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-			<FileNamePattern>/logex/logex3.%i.log.zip</FileNamePattern>
+			<FileNamePattern>/Users/jeongin/Documents/logex/logex3.%i.log.zip</FileNamePattern>
 			<MinIndex>1</MinIndex>
 			<MaxIndex>10</MaxIndex>
 		</rollingPolicy>
