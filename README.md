@@ -9,4 +9,17 @@ JavaSpring을 연습합니다.
 
 **DAY 2**
 - 의존성 라이브러리
-- 컨트롤러와 뷰 값을 이용하여 emaillist, guestbook 
+- 컨트롤러와 뷰 값을 이용하여 emaillist, guestbook 완성하기
+- mvc 모델 적용해보기
+
+....
+
+
+**DAY 3**
+- logex 모듈 생성
+- logging 연습하기
+- aop 모듈 생성
+- aop 연습하기
+
+**DAY 4**
+- container 모듈 생성
