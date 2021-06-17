@@ -5,10 +5,9 @@
     <artifactId>JavaSpring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>hellospring04</artifactId>
-  <packaging>war</packaging>
+  <artifactId>hellospring05</artifactId>
 
-	<properties>
+  <properties>
 	     <org.springframework-version>4.2.4.RELEASE</org.springframework-version>
 	</properties>
 	
@@ -51,7 +50,7 @@
 	</dependencies>
 	
 	<build>
-		<finalName>hellospring04</finalName>
+		<finalName>hellospring05</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -59,7 +58,7 @@
 				<version>3.2.1</version>
 				<configuration>
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
-					<failOnMissingWebXml>true</failOnMissingWebXml>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>		
 			<plugin>
@@ -67,7 +66,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://localhost:9090/manager/text</url>
-					<path>/hellospring04</path>
+					<path>/hellospring05</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
